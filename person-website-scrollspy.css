@@ -1,0 +1,50 @@
+body {
+    position: relative;
+}
+
+h1,h2,h3 {
+    color: lightsalmon;
+}
+
+.meowkai {
+    width: 500px;
+    height: auto;
+}
+
+#selfie {
+    max-width: 200px;
+    max-height: auto;
+}
+
+nav {
+    background-color: lightsalmon;
+}
+
+ul.nav {
+    position: fixed;
+}
+
+div a{
+    color: coral;
+}
+
+div a:hover {
+    color: chocolate;
+}
+
+nav a {
+    color: white;
+}
+
+span {
+    color: peru;
+    font-size: smaller;
+}
+
+nav a:hover {
+    color: peachpuff;
+}
+
+div.col-9 div {
+    height: 800px;
+}
