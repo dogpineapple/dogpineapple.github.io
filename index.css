@@ -2,7 +2,7 @@ body {
     position: relative;
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4 {
     color: lightsalmon;
 }
 
@@ -11,6 +11,7 @@ img {
     border-style: dashed;
     border-width: 5px;
     border-color: lightsalmon;
+    border-radius: 20px;
 }
 
 .cover-photo {
@@ -42,10 +43,6 @@ div a:hover {
     color: chocolate;
 }
 
-p {
-    text-indent: 20px;
-}
-
 .border-warning {
     border-radius: 35px;
     border-bottom-right-radius: 0px;
@@ -67,5 +64,5 @@ nav a:hover {
 }
 
 div.col-9 div {
-    height: 800px;
+    height: fit-content;
 }
