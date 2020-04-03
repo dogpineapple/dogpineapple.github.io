@@ -6,24 +6,29 @@ h1,h2,h3,h4 {
     color: lightsalmon;
 }
 
-img {
-    padding: 15px;
-    border-style: dashed;
-    border-width: 5px;
-    border-color: lightsalmon;
-    border-radius: 20px;
-}
-
 .cover-photo {
+    margin-top: 40px;
     margin-left: 25px;
-    margin-top: 50px;
-    width: 450px;
+    width: 350px;
     height: auto;
 }
 
+img {
+    border-style: solid;
+    border-radius: 20px;
+    border-color: lightsalmon;
+    padding: 5px;
+}
+
 #selfie {
+    margin-left: 40px;
     max-width: 400px;
     max-height: auto;
+}
+
+span {
+    font-size: x-large;
+    color: rgb(255, 169, 98);
 }
 
 nav {
@@ -36,17 +41,21 @@ ul.nav {
 }
 
 div a{
-    color: coral;
+    color: salmon;
 }
 
 div a:hover {
     color: chocolate;
 }
 
+.contact-box {
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
 .border-warning {
-    border-radius: 35px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
+    border-radius: 20px;
+    border-width: 60px;
 }
 
 nav a {
@@ -54,7 +63,7 @@ nav a {
     font-size:1.5vw
 }
 
-span {
+h6 span {
     color: peru;
     font-size: smaller;
 }
