@@ -6,18 +6,23 @@ h1,h2,h3 {
     color: lightsalmon;
 }
 
-.meowkai {
-    width: 500px;
+img {
+    padding: 15px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: lightsalmon;
+}
+
+.cover-photo {
+    margin-left: 25px;
+    margin-top: 50px;
+    width: 450px;
     height: auto;
 }
 
 #selfie {
     max-width: 400px;
     max-height: auto;
-    padding: 10px;
-    border-style: dashed;
-    border-width: 5px;
-    border-color: lightsalmon;
 }
 
 nav {
