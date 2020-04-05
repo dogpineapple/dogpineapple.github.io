@@ -8,7 +8,7 @@ h1,h2,h3,h4 {
 
 .cover-photo {
     margin-top: 40px;
-    margin-left: 25px;
+    margin-left: 60px;
     width: 350px;
     height: auto;
 }
@@ -28,7 +28,7 @@ img {
 
 span {
     font-size: x-large;
-    color: rgb(255, 169, 98);
+    color: lightsalmon;
 }
 
 nav {
@@ -49,8 +49,16 @@ div a:hover {
 }
 
 .contact-box {
-    padding-top: 20px;
-    padding-left: 150px;
+    margin-top: 75px;
+}
+
+.contact-box a {
+    margin-left: 20px;
+}
+
+.contact-icon {
+    margin-top: 10px;
+    width: 60px;
 }
 
 .border-warning {
